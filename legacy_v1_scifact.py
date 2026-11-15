@@ -25,7 +25,7 @@ from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS, CountVectorizer
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data" / "scifact"
-OUT = ROOT / "results"
+OUT = ROOT / "results" / "legacy_v1"  # kept separate from the main study
 K = 10
 B_RESAMPLES = 10_000
 SEED = 7
